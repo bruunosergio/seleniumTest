@@ -10,14 +10,13 @@ namespace TestProject1
         [SetUp]
         public void Setup()
         {
-        }
-
-        [Test]
-        public void Teste()
-        {
             driver = new ChromeDriver();
             driver.Navigate().GoToUrl("https://buscacepinter.correios.com.br");
             //Assert.Pass();
         }
+
+        [Test]
+        public void Teste()
+     
     }
 }
