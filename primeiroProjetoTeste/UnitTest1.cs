@@ -16,7 +16,7 @@ namespace TestProject1
         }
 
         [Test]
-        public void Teste()
+        public void Teste() { }
      
     }
 }
